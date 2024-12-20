@@ -1427,6 +1427,7 @@ section,
   font-weight: 600;
   margin-bottom: 15px;
   font-size: 20px;
+  color: #ccc;
 }
 
 .pricing h4 {
@@ -1449,11 +1450,12 @@ section,
 
 .pricing .description {
   font-size: 14px;
+  color: #ccc;
 }
 
 .pricing .cta-btn {
-  border: 1px solid var(--default-color);
-  color: var(--default-color);
+  background-color: #eb8f06;
+  color: whitesmoke;
   display: block;
   text-align: center;
   padding: 10px 35px;
@@ -1733,8 +1735,77 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Starter Section Section
+# others
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+
+.tablink {
+  background-color: #044d46;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: orange;
+}
+
+.tabcontent {
+  color: rgb(67, 65, 65);
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Trade {background-color: white;}
+#Application {background-color: white;}
+#Business {background-color: white;}
+#Investment {background-color: white;}
+
+.mtii-accordion {
+  background-color: #222020;
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin-bottom: 7px;
+  border: 1px solid #ccc;
+  
+}
+
+.mtii-accordion:hover {
+  background-color: #f19407;
+}
+
+.mtii-panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  }
+
+.mtii-accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.mtii-accordion .active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.elhanan {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  text-align: justify;
 }
