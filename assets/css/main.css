@@ -1860,3 +1860,43 @@ section,
 .mt-3 {
   text-align: justify;
 }
+
+.quick-links a {
+  text-decoration: none;
+  color: #6a6767;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.quick-links a:hover {
+  text-decoration: underline;
+  color: #1acc8d; 
+}
+
+.emie {
+  margin-top: 103px;
+}
+
+
+.mtii-vertical-menu {
+  width: 350px; 
+}
+
+.mtii-vertical-menu a {
+  background-color: #eee; 
+  color: black; 
+  display: block; 
+  padding: 12px; 
+  text-decoration: none;
+  text-align: center; 
+  border-bottom: 1px solid #d5d0d0;
+}
+
+.mtii-vertical-menu a:hover {
+  background-color: #ccc; 
+}
+
+.mtii-vertical-menu a.active {
+  background-color: #04AA6D; 
+  color: white;
+}
