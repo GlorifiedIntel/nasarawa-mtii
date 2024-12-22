@@ -1901,3 +1901,8 @@ section,
   color: white;
 }
 
+.mtii-button:hover {
+  background-color: #04AA6D;
+  border: none;
+}
+
