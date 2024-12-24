@@ -1923,3 +1923,7 @@ th {
   background-color: rgb(33 37 41);
   color: #ccc;
 }
+
+.highlight {
+  font-weight: bold;
+}
