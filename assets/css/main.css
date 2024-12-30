@@ -1927,3 +1927,19 @@ th {
 .highlight {
   font-weight: bold;
 }
+
+/*-------------------------------------
+# Video
+-------------------------------------*/
+
+
+.embed-responsive-item:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease-in-out;
+}
+
+.mtii-font {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #444;
+}
