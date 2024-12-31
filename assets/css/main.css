@@ -803,6 +803,7 @@ section,
   z-index: 2;
 }
 
+
 .hero .container {
   position: relative;
   z-index: 3;
@@ -827,6 +828,7 @@ section,
   font-size: 22px;
   font-weight: 400;
 }
+
 
 .hero .btn-get-started {
   color: var(--contrast-color);
