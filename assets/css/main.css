@@ -1740,34 +1740,6 @@ section,
 # others
 --------------------------------------------------------------*/
 
-.tablink {
-  background-color: #044d46;
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 25%;
-}
-
-.tablink:hover {
-  background-color: orange;
-}
-
-.tabcontent {
-  color: rgb(67, 65, 65);
-  display: none;
-  padding: 100px 20px;
-  height: 100%;
-}
-
-#Trade {background-color: white;}
-#Application {background-color: white;}
-#Business {background-color: white;}
-#Investment {background-color: white;}
-
 .mtii-accordion {
   background-color: #222020;
   color: #fff;
@@ -1959,11 +1931,15 @@ th {
   cursor: pointer;
   padding: 14px 16px;
   font-size: 17px;
-  width: 33%;
+  width: 25%;
 }
 
 .tablink:hover {
   background-color: #6d9e55;
+}
+
+.tablink:active {
+  background-color: orange;
 }
 
 /* Style the tab content (and add height:100% for full page content) */
@@ -1973,6 +1949,11 @@ th {
   padding: 100px 20px;
   height: 100%;
 }
+
+#Trade {background-color: white;}
+#Application {background-color: white;}
+#Business {background-color: white;}
+#Investment {background-color: white;}
 
 #Commissioners {background-color: white;}
 #Permsects {background-color: white;}
